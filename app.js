@@ -4,9 +4,9 @@ const url = require("url");
 
 // Database connection
 const db = mysql.createConnection({
-  host: process.env.DB_HOST || "localhost",
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASSWORD || "mysql123",
+  host: process.env.DB_HOST || "lab51",
+  user: process.env.DB_USER || "nsangha",
+  password: process.env.DB_PASSWORD || "Comp4537",
   database: process.env.DB_NAME || "lab5",
 });
 
